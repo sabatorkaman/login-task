@@ -4,13 +4,13 @@ import "../app/globals.css";
 
 const Login = () => {
   return (
-    <div className="conatiner flex justify-center  bg-green-400">
+    <div className="conatiner flex justify-center ">
       <div className="flex justify-center pt-0 md:pt-10">
         <div className="pr-0 hidden md:block xl:block">
           {" "}
           <img src="img/home-phones-2x.png" width="450" alt="" />
         </div>
-        <form className="sm:border sm:border-gray-300  w-[350px] h-[60%] md:mr-10 lg:mr-0  rounded-md mt-10  xl:mt-10">
+        <form className="sm:border sm:border-gray-300  w-[350px] h-[317px] md:mr-10 lg:mr-0  rounded-md mt-10  xl:mt-10">
           <div className="ml-20 mt-6">
             <img src="img/download.png" width="200" alt="" />
           </div>
@@ -48,7 +48,7 @@ const Login = () => {
           <div className=" mt-4 text-[12px] text-gray-800 text-center">
             forget password?
           </div>
-          <div className="sm:border sm:border-gray-300 rounded-md w-[350px] h-[70px] mt-[50px] xl:mt-[30px]">
+          <div className="sm:border sm:border-gray-300 rounded-md w-[350px] h-[70px] mt-[30px] xl:mt-[30px]">
             <Link
               href="#"
               className="text-blue-600 cursor-pointer  text-center block mt-5 text-[14px]"
